@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Shikha Birthday</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+  
+    
+
 </head>
 <style>
 
@@ -13,53 +21,113 @@
         margin: 0;
         padding: 0;
     }
-.song{
-    display:none;
-}
-.header
-{
-    /* width:100%; */
-    height: 100px;
-    background-color: red;
-}
-.wish{
-    color:white;
-    /* width:100%; */
-    font-size: 45px;
-    text-align: center;
-}
-.image
-{
-    width:100%;
-    /* height:100vh; */
-    /* margin: 30px 30px 10px 30px; */
-    align-items: center;
+    .song{
+        display:none;
+    }
+    .header
+    {
+        /* width:100%; */
+        height: 130px;
+        background-color: #e53935;
+    }
+    .wish{
+        color:white;
+        /* width:100%; */
+        font-size: 45px;
+        text-align: center;
+    }
 
-}
-image img{
-    height:50px;
-}
-body{
-    overflow:hidden;
-}
+    body{
+        /*overflow:hidden;*/
+    }
 </style>
 <body>
 
-
+<div class="container-fluid">
     <div class="header">
-       <div class="wish"> Happy Birthday Shikha</div>
-    </div>
-    <div class="image">
-        <img src="shikha.jpg" height=650 width=360 class="img-responsive">
+     <div class="wish animated bounce"> Happy Birthday Shikha</div>
+ </div>
+ <br>
+ <div class="slider">  
+  <ul class="slides">  
+    <li>  
+  <img src="shikha.jpg">  
+  <!-- random image -->  
+  <div class="caption center-align">  
+    <h3>Post 4</h3>  
+    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>  
+    </div>  
+</li>  
+    <li>  
+      <img src="j1.jpg" height=200>  
+      <!-- random image -->  
+      <div class="caption center-align">  
+        <h3>Post 1</h3>  
+        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>  
+      </div>  
+    </li>  
+    <li>  
+      <img src="j2.jpg">  
+      <!-- random image -->  
+      <div class="caption center-align">  
+        <h3>Post 2</h3>  
+        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>  
+      </div>  
+    </li>  
+    <li>  
+      <img src="j3.jpg">  
+      <!-- random image -->  
+      <<div class="caption center-align">  
+        <h3>Post 3</h3>  
+        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>  
+</div>  
+</li>  
+<li>  
+  <img src="j4.jpg">  
+  <!-- random image -->  
+  <div class="caption center-align">  
+    <h3>Post 4</h3>  
+    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>  
+    </div>  
+</li>  
+</ul>  
+</div>  
+<!-- <div class="image">
+    <img src="shikha.jpg" height=650 width=360 class="img-responsive">
 
-    </div>
-    <div class="song">
-        <audio controls autoplay>
-            <source src="horse.ogg" type="audio/ogg">
+</div> -->
+</div>
+<div class="song">
+    <audio controls autoplay>
+        <!-- <source src="horse.ogg" type="audio/ogg"> -->
             <source src="hbd.mp3" type="audio/mpeg">   
-          Your browser does not support the audio element.
+              Your browser does not support the audio element.
           </audio>
-        </div>
+      </div>
+      <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function(){
+    // $('.carousel').carousel();
+
+
+
+
+  // Or with jQuery
+
+
+  $(".slider").slider({ full_width: true });  
+});  
+
+ 
+       
+
+</script>
+
+
 </body>
 </html>
 

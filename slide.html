@@ -1,0 +1,77 @@
+<!DOCTYPE html>  
+<html>  
+   <head>  
+      <title>The Materialize Cards Example</title>  
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">        
+      <link rel = "stylesheet"  
+         href = "https://fonts.googleapis.com/icon?family=Material+Icons">  
+      <link rel = "stylesheet"  
+         href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">  
+      <script type = "text/javascript"  
+         src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>             
+      <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">  
+      </script>   
+      <style type="text/css">
+        
+.slider
+{
+  height:100vh;
+}
+.slides
+{
+height:100vh;
+  
+}
+img
+{
+
+  background-size: center;
+  background-position: cover;
+}
+
+      </style>
+   </head>   
+   <body class = "container-fluid">   
+    <br>
+     <div class="slider">  
+  <ul class="slides">  
+    <li>  
+      <img src="j1.jpg" height=200>  
+      <!-- random image -->  
+      <div class="caption center-align">  
+        <h3>Post 1</h3>  
+        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>  
+      </div>  
+    </li>  
+    <li>  
+      <img src="j2.jpg">  
+      <!-- random image -->  
+      <div class="caption center-align">  
+        <h3>Post 2</h3>  
+        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>  
+      </div>  
+    </li>  
+    <li>  
+      <img src="j3.jpg">  
+      <!-- random image -->  
+      <<div class="caption center-align">  
+        <h3>Post 3</h3>  
+        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>  
+</div>  
+</li>  
+<li>  
+  <img src="j4.jpg">  
+  <!-- random image -->  
+  <div class="caption center-align">  
+    <h3>Post 4</h3>  
+    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>  
+    </div>  
+</li>  
+</ul>  
+</div>  
+<script> $(document).ready(function() {  
+  $(".slider").slider({ full_width: true });  
+});  
+</script>  
+   </body>     
+</html>  
